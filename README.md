@@ -26,13 +26,7 @@
    npm install
    ```
 
-4. Build Output HTML
-
-   ```shell
-   npm run build
-   ```
-
-5. View Locally
+4. View Locally
 
    ```shell
    npm start

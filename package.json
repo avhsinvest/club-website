@@ -9,14 +9,25 @@
   },
   "scripts": {
     "postinstall": "husky install",
-    "build": "mustache data.json template.mustache > index.html",
-    "start": "serve"
-  },
-  "dependencies": {
-    "mustache": "^4.2.0"
+    "compile": "mustache data.json template.mustache > index.html",
+    "compile:watch": "npm-watch compile",
+    "serve": "serve",
+    "start": "concurrently 'npm:compile:watch' 'npm:serve' -c 'blue.bold,green.bold'"
   },
   "devDependencies": {
+    "mustache": "^4.2.0",
+    "concurrently": "^6.4.0",
     "husky": "^7.0.4",
+    "npm-watch": "^0.11.0",
     "serve": "^13.0.2"
+  },
+  "watch": {
+    "compile": {
+      "patterns": [
+        "template.mustache",
+        "data.json"
+      ],
+      "quiet": true
+    }
   }
 }
