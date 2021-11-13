@@ -1,4 +1,6 @@
 .lintstagedrc linguist-language=JSON
 
+.prettierrc linguist-language=JSON
+
 .markdownlintrc linguist-language=JSON
 .markdownlintignore linguist-language=Ignore-List

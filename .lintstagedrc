@@ -1,5 +1,9 @@
 {
   "**/*@(md)": [
-    "markdownlint --fix"
+    "markdownlint --fix",
+    "prettier --write"
+  ],
+  "**/*.@(json|yml|html|css|mustache)": [
+    "prettier --write"
   ]
 }

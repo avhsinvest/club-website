@@ -1,5 +1,7 @@
 {
   "files.associations": {
+    ".prettierrc": "json",
+
     ".markdownlintignore": "ignore",
     ".markdownlintrc": "json",
 
