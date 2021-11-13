@@ -2,6 +2,14 @@
   "school_start_year": "2021",
   "school_end_year": "2022",
   "current_year": "2021",
+  "remind_code": "avic2021",
+  "email": "amadorvalleyic@gmail.com",
+  "pigskin": {
+    "start_time": "4:30",
+    "end_time": "6:30",
+    "day": "Friday",
+    "date": "September 24"
+  },
   "officers": [
     {
       "name": "Gordon Tam",

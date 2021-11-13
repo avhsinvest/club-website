@@ -174,7 +174,7 @@
                 /></a>
               </div>
               <br />
-              <p style="color: #000000" ;>
+              <p style="color: #000000">
                 This year, we'll be focusing on individual portfolios,
                 specificially the reason behind different investments. At the
                 end of the game, we'll evaluate everyone's portfolios through
@@ -182,7 +182,10 @@
               </p>
               <ul class="actions">
                 <li>
-                  <a href="StockMarketGame.pdf" class="button primary large"
+                  <a
+                    href="assets/StockMarketGame.pdf"
+                    target="_blank"
+                    class="button primary large"
                     >GUIDE</a
                   >
                 </li>
@@ -207,16 +210,12 @@
             </header>
             <div class="content">
               <div class="gallery">
-                <a href="images/events/speakers/main.jpg" class="landscape"
-                  ><img
+                <a href="images/events/speakers/main.jpg" class="landscape">
+                  <img
                     src="images/events/speakers/main.jpg"
                     alt="AVIC Guest Speakers"
-                /></a>
-              </div>
-              <center>
-                <h4 style="color: #000000">NOTABLE SPEAKERS</h4>
-              </center>
-              <div class="gallery">
+                  />
+                </a>
                 {{#speakers}}
                 <a href="{{link}}" target="_blank" class="person">
                   <div class="content-overlay"></div>
@@ -243,7 +242,7 @@
             <header>
               <h3 class="purple-bg">MENTORSHIP PROGRAM</h3>
               <p class="yellow-bg">
-                Learning complex financial subjects may be overwhelming, that's
+                Learning complex financial subjects can be overwhelming. That's
                 why we are giving you the opportunity to learn through our
                 mentors. This gives you individualized attention that you won't
                 get in a crowded classroom.
@@ -251,24 +250,24 @@
             </header>
             <div class="content">
               <ul class="feature-icons">
-                <li class="icon solid fa-laptop" style="color: #000000" ;>
+                <li class="icon solid fa-laptop" style="color: #000000">
                   Mini-Presentations
                 </li>
-                <li class="icon solid fa-pencil-alt" style="color: #000000" ;>
+                <li class="icon solid fa-pencil-alt" style="color: #000000">
                   Written Articles
                 </li>
-                <li class="icon solid fa-signal" style="color: #000000" ;>
+                <li class="icon solid fa-signal" style="color: #000000">
                   Portfolio Evaluation
                 </li>
-                <li class="icon solid fa-user" style="color: #000000" ;>
+                <li class="icon solid fa-user" style="color: #000000">
                   Tutoring
                 </li>
               </ul>
-              <p style="color: #000000" ;>
-                You'll have the chance to learn more about any subject through
-                tutoring through our mentors, evaluate your portfolio, and even
-                share with the club through mini-presentations and written
-                articles.
+              <p style="color: #000000">
+                You'll have the chance to learn more about financial topics
+                through various activities like mentor tutoring, evaluations of
+                your individual portfolio, and mini presentations to the entire
+                club!
               </p>
             </div>
           </section>
@@ -278,7 +277,7 @@
               <h3 class="purple-bg">YOUTH OUTREACH</h3>
               <p class="yellow-bg">
                 AVIC has expanded to each of the local middle schools (PMS,
-                Harvest Park, and Hart) and has now reached dozens of students
+                Harvest Park, and Hart) and has now reached hundreds of students
                 in our community through its monthly lessons. Furthermore, we
                 are expanding to many other schools around the Bay Area, outside
                 of the tri-valley.
@@ -286,11 +285,12 @@
             </header>
             <div class="content">
               <div class="gallery">
-                <a href="images/events/youthoutreach.jpg" class="landscape"
-                  ><img
+                <a href="images/events/youthoutreach.jpg" class="landscape">
+                  <img
                     src="images/events/youthoutreach.jpg"
                     alt="Youth Outreach"
-                /></a>
+                  />
+                </a>
               </div>
             </div>
           </section>
@@ -301,10 +301,11 @@
               <h3 class="purple-bg">PIGSKIN</h3>
               <p class="yellow-bg">
                 Amador Valley High School's Booster's Club will hold its annual
-                Pigskin Roast from 4-7 p.m. Friday, Sept. 27. The fundraising
-                event supports all the AVHS teams and clubs. This year, we will
-                have tables set up to sell our iconic root beer floats. Be sure
-                to stop by to grab a refreshing, delicious dessert on that day!
+                Pigskin Roast from {{pigskin.start_time}} - {{pigskin.end_time}}
+                p.m. on {{pigskin.day}}, {{pigskin.date}}. The fundraising event
+                supports all the AVHS teams and clubs. This year, we will have
+                tables set up to sell our iconic root beer floats. Be sure to
+                stop by to grab a refreshing, delicious dessert on that day!
               </p>
             </header>
             <div class="content">
@@ -392,13 +393,17 @@
               </ul>
               <ul class="actions">
                 <li>
-                  <a href="http://streetfins.com/" class="button primary large"
+                  <a
+                    href="https://streetfins.com/"
+                    target="_blank"
+                    class="button primary large"
                     >STREETFINS</a
                   >
                 </li>
                 <li>
                   <a
                     href="https://drive.google.com/drive/folders/0B2lldP84dad6fkR0VGlYXzlBWVJGdy1tdkhRb1lQSktubGxpampIN1ZDOVV0YS16cEs5N0U?usp=sharing"
+                    target="_blank"
                     class="button large"
                   >
                     PRESENTATIONS
@@ -409,6 +414,7 @@
                 <li>
                   <a
                     href="https://www.coursera.org/learn/financial-markets-global"
+                    target="_blank"
                     class="button primary large"
                     >COURSEA: FINANCIAL MARKETS</a
                   >
@@ -438,13 +444,18 @@
           <ul class="items">
             <li>
               <h3 class="purple-bg">Email</h3>
-              <a href="mailto:amadorvalleyic@gmail.com" class="yellow-bg"
-                >amadorvalleyic@gmail.com</a
+              <a href="mailto:{{email}}" target="_blank" class="yellow-bg"
+                >{{email}}</a
               >
             </li>
             <li>
               <h3 class="purple-bg">Remind</h3>
-              <a href="#" class="yellow-bg">Text @avic20 to 81010</a>
+              <a
+                href="https://www.remind.com/join/{{remind_code}}"
+                target="_blank"
+                class="yellow-bg"
+                >Text @{{remind_code}} to 81010</a
+              >
             </li>
             <li>
               <h3 class="purple-bg">Address</h3>
