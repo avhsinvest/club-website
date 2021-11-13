@@ -75,5 +75,27 @@
       "image": "tim_draper.jpg",
       "link": "https://www.pleasantonweekly.com/news/2017/12/05/venture-capitalist-tim-draper-speaks-at-amador"
     }
+  ],
+  "socials": [
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "link": "https://github.com/avhsinvest/"
+    },
+    {
+      "name": "Instagram",
+      "icon": "instagram",
+      "link": "https://www.instagram.com/avhsinvestment/"
+    },
+    {
+      "name": "LinkedIn",
+      "icon": "linkedin",
+      "link": "https://www.linkedin.com/company/amador-valley-investment-club/"
+    },
+    {
+      "name": "Discord",
+      "icon": "discord",
+      "link": "https://discord.gg/3Z3zYTyf6j"
+    }
   ]
 }

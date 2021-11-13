@@ -455,13 +455,16 @@
             <li>
               <h3 class="purple-bg">Elsewhere</h3>
               <ul class="icons">
-                <li>
+                {{#socials}}
+                <li title="{{name}}">
                   <a
-                    href="https://www.instagram.com/avhsinvestment/"
-                    class="icon brands fa-instagram yellow-bg"
-                    ><span class="label">Instagram</span></a
+                    href="{{link}}"
+                    target="_blank"
+                    class="icon brands fa-{{icon}} yellow-bg"
+                    ><span class="label">{{name}}</span></a
                   >
                 </li>
+                {{/socials}}
               </ul>
             </li>
           </ul>
