@@ -3,3 +3,4 @@
 
 npm run compile
 git add index.html
+npm run lint:staged
