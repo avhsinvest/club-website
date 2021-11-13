@@ -1,8 +1,15 @@
 {
   "name": "avhs-investment-club",
-  "version": "1.0.0",
-  "private": true,
   "description": "Investment Club at Amador Valley High School",
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avhsinvest/club-website/"
+  },
+  "bugs": {
+    "url": "https://github.com/avhsinvest/club-website/issues/"
+  },
   "author": {
     "name": "AVHS Investment Club",
     "email": "amadorvalleyic@gmail.com"
