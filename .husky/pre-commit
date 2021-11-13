@@ -2,5 +2,5 @@
 . "$(dirname "$0")/_/husky.sh"
 
 npm run compile
-git add index.html
+git add public/index.html
 npm run lint:staged

@@ -1,4 +1,4 @@
-<p align="center"><img src="images/logos/avic.png" width="200" ></p>
+<p align="center"><img src="public/images/logos/avic.png" width="200" ></p>
 <h1 align="center">AVIC (Amador Valley Investment Club)</h1>
 
 ## Contents <!-- omit in toc -->

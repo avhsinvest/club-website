@@ -16,9 +16,9 @@
   },
   "scripts": {
     "postinstall": "husky install",
-    "compile": "mustache data.json template.mustache > index.html",
+    "compile": "mustache src/data.json src/template.mustache > public/index.html",
     "compile:watch": "npm-watch compile",
-    "serve": "serve",
+    "serve": "serve public",
     "start": "concurrently 'npm:compile:watch' 'npm:serve' -c 'blue.bold,green.bold'",
     "lint:staged": "lint-staged"
   },
@@ -34,9 +34,9 @@
   "watch": {
     "compile": {
       "patterns": [
-        "template.mustache",
-        "data.json"
+        "src"
       ],
+      "extensions": "mustache,json",
       "quiet": true
     }
   }
