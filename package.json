@@ -1,0 +1,21 @@
+{
+  "name": "avhs-investment-club",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Investment Club at Amador Valley High School",
+  "author": {
+    "name": "AVHS Investment Club",
+    "email": "amadorvalleyic@gmail.com"
+  },
+  "scripts": {
+    "generate": "ts-node src/engine.ts"
+  },
+  "dependencies": {
+    "mustache": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/mustache": "^4.1.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}

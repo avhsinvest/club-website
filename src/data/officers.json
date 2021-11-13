@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Gordon Tam",
+    "image": "gordon.jpg",
+    "role": "President",
+    "grade": "Senior",
+    "class": "2022"
+  },
+  {
+    "name": "Saif Rajabali",
+    "image": "saif.jpg",
+    "role": "Vice President",
+    "grade": "Senior",
+    "class": "2022"
+  },
+  {
+    "name": "Rathul Anand",
+    "image": "rathul.jpg",
+    "role": "Secretary",
+    "grade": "Junior",
+    "class": "2023"
+  },
+  {
+    "name": "Yash Totale",
+    "image": "yash.jpg",
+    "role": "Treasurer",
+    "grade": "Senior",
+    "class": "2022"
+  },
+  {
+    "name": "Alex Chen",
+    "image": "alex.jpg",
+    "role": "Outreach",
+    "grade": "Sophomore",
+    "class": "2024"
+  }
+]

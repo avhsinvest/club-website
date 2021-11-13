@@ -1,0 +1,320 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <title>Amador Valley Investment Club</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="is-preload">
+  <!-- Wrapper -->
+  <div id="wrapper">
+    <!-- Intro -->
+    <section class="intro">
+      <header>
+        <h1>AVHS</h1>
+        <h1>INVESTMENT CLUB</h1>
+        <p>EST. 2015</p>
+        <ul class="actions">
+          <li><a style="border-width: 0;" href="https://streetfins.com/" target="_blank"><img src="images/logos/streetfins.png" alt="StreetFins" width="70"
+                height="70" /></a></li>
+          <li><a style="border-width: 0;" href="https://amador.pleasantonusd.net/"  target="_blank"><img src="images/logos/avhs.png" alt="AVHS"
+                width="70" height="70" /></a></li>
+          <li><a style="border-width: 0;" href="#"><img src="images/logos/avic.png" alt="AVIC" width="70" height="70" /></a></li>
+          <li><a href="#about" class="arrow scrolly"><span class="label">Next</span></a></li>
+
+        </ul>
+      </header>
+      <div class="content">
+        <span class="image fill" data-position="center"><img src="images/thumb.jpg" alt="" /></span>
+      </div>
+    </section>
+
+    <!-- Section -->
+    <section id="about">
+      <header>
+        <h2>We are AVIC</h2>
+        <p>The Amador Valley Investment Club, which is a <a href="http://streetfins.com/" target="_blank"
+            rel="noopener">StreetFins</a> club, is dedicated to providing an easy-entry environment that promotes and
+          teaches students informed investing and financial literacy. The club will strengthen the understanding and
+          provide resources for its members on the subjects of investing and finance.
+        </p>
+      </header>
+      <div class="content">
+        <p style="color:#000000" ;>We hold weekly meetings throughout the school year which all include activities such
+          as a six-session introductory boot camp, a variety of workshops, mini-presentations, guest speakers, and
+          virtual stock market simulations.</p>
+        <div class="gallery">
+          <a href="images/about.jpg" class="landscape"><img src="images/about.jpg" alt="AVIC" /></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section -->
+    <section>
+      <header>
+        <h2>OFFICERS</h2>
+        <p>Meet your AVIC officers for the {{start_year}}-{{end_year}} school year!</p>
+      </header>
+      <div class="content">
+        <!-- Section -->
+        <section>
+          <div class="content">
+            <div class="gallery">
+              {{#officers}}
+              <a href="images/officers/{{image}}" class="person">
+                <div class="content-overlay"></div>
+                <img src="images/officers/{{image}}" alt="{{name}}" class="content-image" />
+                <div class="content-details">
+                  <h3>{{name}}<br>
+                    <em>{{role}}</em>
+                  </h3>
+                  <p>{{grade}}<br>Class of {{class}}</p>
+                </div>
+              </a>
+              {{/officers}}
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- Section -->
+    <section>
+      <header>
+        <h2>UPCOMING AND PREVIOUS EVENTS</h2>
+      </header>
+      <div class="content">
+        <!-- Section -->
+        <section>
+          <header>
+            <h3 class="purple-bg">ANNUAL STOCK MARKET GAME</h3>
+            <p class="yellow-bg">Our annual stock market game (SMG) will begin in October
+              {{start_year}} and will last until April {{end_year}}. Participants will be given an amount of imaginary
+              money to invest in stocks, bonds, and funds. Students may participate in groups of up to 3 members and
+              will use investing
+              skills they have learned throughout AVIC Bootcamp to make smart decisions with their money. It is up to
+              you how much time and effort you would like to put into it. But the more you put in, the more you get out
+              and have a higher chance of winning our prize.</p>
+          </header>
+          <div class="content">
+            <div class="gallery">
+              <a href="images/events/smg/1.jpg" class="landscape"><img src="images/events/smg/1.jpg" alt="AVIC Classroom" /></a>
+              <a href="images/events/smg/2_full.png"><img src="images/events/smg/2.png" alt="SMG Overview Page" /></a>
+              <a href="images/events/smg/3_full.png"><img src="images/events/smg/3.png" alt="SMG Portfolio Page" /></a>
+            </div>
+            <br>
+            <p style="color:#000000" ;>This year, we'll be focusing on individual portfolios, specificially the reason
+              behind different investments. At the end of the game, we'll evaluate everyone's portfolios through
+              mini-presentations, and award the prize to the winner.</p>
+            <ul class="actions">
+              <li><a href="StockMarketGame.pdf" class="button primary large">GUIDE</a></li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Section -->
+        <section>
+          <header>
+            <h3 class="purple-bg">SPEAKERS</h3>
+            <p class="yellow-bg">We have the privilege of getting in touch with
+              professionals in the financial industry. Throughout our club's long-standing history, we've brought in a
+              variety of speakers from local hedge-fund managers to national billionaires.</p>
+            <p class="yellow-bg">For our upcoming speakers, you'll get the chance to ask
+              our guests questions that you may have.</p>
+          </header>
+          <div class="content">
+            <div class="gallery">
+              <a href="images/events/speakers/main.jpg" class="landscape"><img src="images/events/speakers/main.jpg" alt="AVIC Guest Speakers" /></a>
+            </div>
+            <center>
+              <p>
+              <h4 style="color:#000000">NOTABLE SPEAKERS</h4>
+              </p>
+            </center>
+            <div class="gallery">
+              {{#speakers}}
+              <a href="{{link}}" target="_blank" class="person">
+                <div class="content-overlay"></div>
+                <img src="images/events/speakers/{{image}}" alt="{{name}}" class="content-image" />
+                <div class="content-details">
+                  <h3>{{name}}<br>
+                    <em>{{date}}</em>
+                  </h3>
+                  <p>{{description}}</p>
+                </div>
+              </a>
+              {{/speakers}}
+            </div>
+          </div>
+        </section>
+          
+        <!-- Section -->
+        <section>
+          <header>
+            <h3 class="purple-bg">MENTORSHIP PROGRAM</h3>
+            <p class="yellow-bg">Learning complex financial subjects may be overwhelming,
+              that's why we are giving you the opportunity to learn through our mentors. This gives you individualized
+              attention that you won't get in a crowded classroom.</p>
+          </header>
+          <div class="content">
+
+            <ul class="feature-icons">
+              <li class="icon solid fa-laptop" style="color:#000000" ;>Mini-Presentations</li>
+              <li class="icon solid fa-pencil-alt" style="color:#000000" ;>Written Articles</li>
+              <li class="icon solid fa-signal" style="color:#000000" ;>Portfolio Evaluation</li>
+              <li class="icon solid fa-user" style="color:#000000" ;>Tutoring</li>
+            </ul>
+            <p style="color:#000000" ;>You'll have the chance to learn more about any subject through tutoring through
+              our mentors, evaluate your portfolio, and even share with the club through mini-presentations and written
+              articles.</p>
+          </div>
+        </section>
+        <!-- Section -->
+        <section>
+          <header>
+            <h3 class="purple-bg">YOUTH OUTREACH</h3>
+            <p class="yellow-bg">AVIC has expanded to each of the local middle schools
+              (PMS, Harvest Park, and Hart) and has now reached dozens of students in our community through its monthly
+              lessons. Furthermore, we are expanding to many other schools around the Bay Area, outside of the
+              tri-valley.</p>
+          </header>
+          <div class="content">
+            <div class="gallery">
+              <a href="images/events/youthoutreach.jpg" class="landscape"><img src="images/events/youthoutreach.jpg" alt="Youth Outreach" /></a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section -->
+        <section>
+          <header>
+            <h3 class="purple-bg">PIGSKIN</h3>
+            <p class="yellow-bg">Amador Valley High School's Booster's Club will hold its
+              annual Pigskin Roast from 4-7 p.m. Friday, Sept. 27. The fundraising event supports all the AVHS teams and
+              clubs. This year, we will have tables set up to sell our iconic root beer floats. Be sure to stop by to
+              grab a refreshing, delicious dessert on that day!</p>
+          </header>
+          <div class="content">
+            <div class="gallery">
+              <a href="images/events/pigskin.jpg" class="landscape"><img src="images/events/pigskin.jpg" alt="Pigskin" /></a>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </section>
+
+    <!-- Section -->
+    <section>
+      <header>
+        <h2>RESOURCES OUT OF THE CLASSROOM</h2>
+      </header>
+      <div class="content">
+        <p style="color:#000000" ;>AVIC strives to empower every student to feel in control of their financial future.
+          Feel free to control <em>your</em> financial future through our provided resources.</p>
+
+        <!-- Section -->
+        <section>
+          <header>
+            <h3 class="purple-bg">STREETFINS</h3>
+            <p class="yellow-bg">On StreetFins, an educational platform deisgned by
+              previous AVIC alumni, you can learn finance in the most simple way by reading content written by students,
+              for students.</p>
+            <h3 class="purple-bg">PREVIOUS PRESENTATIONS</h3>
+            <p class="yellow-bg">You can also view our previous presentations on various
+              financial topics throughout the years of AVIC.</p>
+            <h3 class="purple-bg">COURSERA</h3>
+            <p class="yellow-bg">An overview of the ideas, methods, and institutions that
+              permit human society to manage risks and foster enterprise. Emphasis on financially-savvy leadership
+              skills. Description of practices today and analysis of prospects for the future. Introduction to risk
+              management and behavioral finance principles to understand the real-world functioning of securities,
+              insurance, and banking industries. The ultimate goal of this course is using such industries effectively
+              and towards a better society.</p>
+          </header>
+          <div class="content">
+            <div class="gallery">
+              <a href="images/resources/streetfins.png" class="landscape"><img src="images/resources/streetfins.png" alt="StreetFins" /></a>
+              <a href="images/resources/coronavirus-stock.jpg"><img src="images/resources/coronavirus-stock.jpg" alt="Coronavirus Stock Market" /></a>
+              <a href="images/resources/stock-market.jpg"><img src="images/resources/stock-market.jpg" alt="Stock Market" /></a>
+            </div>
+            <ul class="feature-icons">
+              <br>
+              <li class="icon solid fa-quote-left" style="width: 100%" ;><em style="color:#000000" ;>"The<strong
+                    style="color:#000000" ;> best investment</strong> you can make, is an <strong style="color:#000000"
+                    ;>investment in yourself...</strong> The more you <strong style="color:#000000" ;>learn,</strong>
+                  the more you'll <strong style="color:#000000" ;>earn.</strong>" <br>— Warren Buffett</em></li>
+            </ul>
+            <ul class="actions">
+              <li><a href="http://streetfins.com/" class="button primary large">STREETFINS</a></li>
+              <li><a
+                  href="https://drive.google.com/drive/folders/0B2lldP84dad6fkR0VGlYXzlBWVJGdy1tdkhRb1lQSktubGxpampIN1ZDOVV0YS16cEs5N0U?usp=sharing"
+                  class="button large">PRESENTATIONS</a></li>
+
+            </ul>
+            <ul class="actions">
+              <li><a href="https://www.coursera.org/learn/financial-markets-global"
+                  class="button primary large">COURSEA: FINANCIAL MARKETS</a></li>
+
+
+            </ul>
+          </div>
+        </section>
+      </div>
+    </section>
+    <section>
+      <header>
+        <h2>GET IN TOUCH</h2>
+      </header>
+      <div class="content">
+        <p style="color:#000000" ;>If you have any questions, comments, or concerns, please do not hesitate to ask.
+          Also, be sure to join our remind for important updates on upcoming events.</p>
+        <div class="gallery">
+          <a href="images/contact.jpg" class="landscape"><img src="images/contact.jpg" alt="Contact Us" /></a>
+        </div>
+      </div>
+      <footer>
+        <ul class="items">
+          <li>
+            <h3 class="purple-bg">Email</h3>
+            <a href="mailto:amadorvalleyic@gmail.com" class="yellow-bg">amadorvalleyic@gmail.com</a>
+          </li>
+          <li>
+            <h3 class="purple-bg">REMIND</h3>
+            <a href="#" class="yellow-bg">Text @avic20 to 81010</a>
+          </li>
+          <li>
+            <h3 class="purple-bg">Address</h3>
+            <span class="yellow-bg">1155 Santa Rita Rd, Pleasanton, CA 94566</span>
+          </li>
+          <li>
+            <h3 class="purple-bg">Elsewhere</h3>
+            <ul class="icons">
+              <li><a href="https://www.instagram.com/avhsinvestment/" class="icon brands fa-instagram yellow-bg"><span class="label">Instagram</span></a></li>
+            </ul>
+          </li>
+        </ul>
+      </footer>
+    </section>
+
+    <!-- Copyright -->
+    <div class="copyright">&copy; AVIC {{current_year}}. All rights reserved.</div>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
