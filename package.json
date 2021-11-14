@@ -20,6 +20,7 @@
     "compile:watch": "npm-watch compile",
     "serve": "serve public",
     "start": "concurrently 'npm:compile:watch' 'npm:serve' -c 'blue.bold,green.bold'",
+    "lint": "markdownlint . && prettier --check .",
     "lint:staged": "lint-staged"
   },
   "devDependencies": {
