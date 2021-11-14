@@ -3,4 +3,5 @@
 
 npm run compile
 npm run lint:staged
+prettier --write public/index.html
 git add public/index.html
