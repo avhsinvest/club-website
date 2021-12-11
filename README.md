@@ -1,5 +1,10 @@
-<p align="center"><img src="public/logo.png" width="200" ></p>
-<h1 align="center">AVIC (Amador Valley Investment Club)</h1>
+<p align="center"><a href="https://amadorinvest.org"><img src="public/logo.png" width="200" ></a></p>
+<h1 align="center"><a href="https://amadorinvest.org">AVIC (Amador Valley Investment Club)</a></h1>
+<p align="center">Simplifying investment, finance, and economics!</p>
+<p align="center">
+  <a href="https://github.com/avhsinvest/club-website/actions/workflows/integrate.yml"><img alt="Build" src="https://img.shields.io/github/workflow/status/avhsinvest/club-website/CI?logo=github&logoColor=FFFFFF&labelColor=000000&label=CI&style=flat-square"></a>
+  <a href="https://amadorinvest.org/"><img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Famadorinvest.org%2F&labelColor=000000&label=Website&style=flat-square"></a>
+</p>
 
 ## Contents <!-- omit in toc -->
 
